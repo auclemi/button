@@ -1,0 +1,11 @@
+<button id="{{::afId}}"
+		name="{{::afId}}"
+		ng-attr-type="{{afType}}"
+		class="btn {{afClass}} {{::stateClass}} {{::btnSize}}"
+		ng-disabled="afDisabled"
+		title="{{afTitle| translate}}"
+		ng-click="afClick(); $event.stopPropagation();">
+	<span class="icon {{::icon}}" ng-if="::icon" ng-click="afClick(); $event.stopPropagation();"></span>
+	{{label| translate}}
+</button>
+
