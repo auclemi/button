@@ -1,26 +1,3 @@
-/**
- * @file afis-button.directive.js
- * @author Michel Auclert
- * @since 09-Feb-2017
- * @copyright European Anti-Fraud Office/Anti-Fraud Information System (OLAF/AFIS)
- *
- * Afis Button Directives
- * @name afis.ui.directive:afisButton
- * @namespace Directives
- *
- * @property {attribute} [action] - action defines standard label and icon
- * @property {attribute} [state=secondary] - button state secondary|primary|danger
- * @property {attribute} [disabled] - disabled="true" sets disabled
- * @property {attribute} [caption] - custom caption or code, will be translated. caption="" => icon btton with no caption
- * @property {attribute} [icon] - custom icon class: i.e icon-help
- * @property {attribute} [size=medium] - button size: lg|sm|xs
- * @property {attribute} [type=button] - button|submit|reset|
- * @example
- * <afis-button action="reset" type="reset"></afis-button>
- * <afis-button action="search" state="primary"></afis-button>
- * <afis-button caption="Search containers" icon="icon-ship" size="lg"></afis-button>
- *
- */
 
 /*global _, angular*/
 (function (angular) {
