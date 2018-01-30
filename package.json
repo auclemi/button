@@ -1,0 +1,14 @@
+{
+  "name": "button",
+  "version": "1.0.0",
+  "description": "",
+  "main": "afis-button.directive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "translations": "git+https://auclemi@github.com/auclemi/translations.git#1.0.3"
+  }
+}
